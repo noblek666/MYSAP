@@ -45,7 +45,7 @@ CLASS zcl_generate_demo_data_man IMPLEMENTATION.
             lastchangedby AS last_changed_by       ,
             lastchangedat AS last_changed_at       ,
             lastchangedat AS local_last_changed_at
-            ORDER BY travel_id UP TO 200 ROWS
+            ORDER BY travel_id
       ).
     COMMIT WORK.
 
